@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.tester_text {
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 15px;
+  font-size: 2rem;
+  color: black;
+  background: linear-gradient(to top, rgb(92, 92, 92), rgb(189, 189, 189));
+  border-bottom: 1px solid black;
+}
+
+audio {
+  border: none;
+}
